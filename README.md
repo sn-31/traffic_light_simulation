@@ -10,13 +10,15 @@ An adaptive, density-based traffic light simulation built with C++ and the [rayl
 *   **Manual Spawning:** Click on lanes to spawn cars or ambulances and test the system's response.
 
 ## 🛠 Project Structure
-*   `include/`: Header files (`.h`) defining the system architecture and constants.
-*   `src/`: Implementation files (`.cpp`) containing the simulation logic, rendering, and input handling.
-  * `constants.h`: Geometry configurations and base timing thresholds.
-  * `traffic.cpp` / `traffic.h`: Adaptive timing metrics and state transitions.
-  * `vehicle.cpp` / `vehicle.h`: Spawning safety and gap-based physics.
-  * `render.cpp` / `render.h`: Drawing pipelines and HUD rendering.
-  * `main.cpp`: Window initialization and core loop.
+```text
+include/: Header files (.h) defining the system architecture and constants.
+src/: Implementation files (.cpp) containing the simulation logic, rendering, and input handling.
+      constants.h: Geometry configurations and base timing thresholds.
+      traffic.cpp / traffic.h: Adaptive timing metrics and state transitions.
+      vehicle.cpp / vehicle.h: Spawning safety and gap-based physics.
+      render.cpp / render.h: Drawing pipelines and HUD rendering.
+      main.cpp: Window initialization and core loop.
+```
 ## 🔨 Build Instructions
 
 ### Prerequisites
