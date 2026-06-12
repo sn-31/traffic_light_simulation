@@ -12,11 +12,11 @@ An adaptive, density-based traffic light simulation built with C++ and the [rayl
 ## 🛠 Project Structure
 *   `include/`: Header files (`.h`) defining the system architecture and constants.
 *   `src/`: Implementation files (`.cpp`) containing the simulation logic, rendering, and input handling.
-*    constants.h: Geometry configurations and base timing thresholds.
-   * traffic.cpp / .h: Adaptive timing metrics and state transitions.
-   * vehicle.cpp / .h: Spawning safety and gap-based physics.
-   * render.cpp / .h: Drawing pipelines and HUD rendering.
-   * main.cpp: Window initialization and core loop.
+*            constants.h: Geometry configurations and base timing thresholds.
+*            traffic.cpp / .h: Adaptive timing metrics and state transitions.
+*            vehicle.cpp / .h: Spawning safety and gap-based physics.
+*            render.cpp / .h: Drawing pipelines and HUD rendering.
+*            cpp: Window initialization and core loop.
 
 ## 🔨 Build Instructions
 
